@@ -1,0 +1,12 @@
+div.a{
+    text-transform: capitalize;
+}
+div.b{
+    text-transform: uppercase;
+}
+div.c{
+    text-transform: lowercase;
+}
+body{
+    background-color: cornsilk;
+}

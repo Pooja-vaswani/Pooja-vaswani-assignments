@@ -1,0 +1,12 @@
+div{
+    border padding: 0;
+    border: 1px solid red;
+    
+    
+}
+
+p.dotted{
+   border margin: margin-top: 0px;;
+    border-style: dotted;
+    border-color: green;
+}
