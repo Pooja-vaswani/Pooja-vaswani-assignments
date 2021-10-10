@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2> Sum of multiples of 3 and 5 </h2>
+<script>
+const N= parseInt(prompt('Enter a positive integer: '));
+let sum = 0, i = 1;
+while(i <= N) {
+if(N%3==0 || N%5==0){
+ sum += i;
+ }
+ i++;
+}
+document.write('The Sum of N numbers is:', sum);
+</script>
+</body>
+</html>

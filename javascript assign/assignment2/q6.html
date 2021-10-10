@@ -1,0 +1,27 @@
+<html>
+<body>
+<script>
+i=0;
+    var a=[1,2,3,4,5];
+         map(a,square);
+
+console.log(map());
+function map()
+{
+    if(i < a.length)
+    {
+      document.write(square(a[i]) +"<br>");
+      i++;
+    map();
+    }else{
+        return;
+    }
+}
+    function square(n)
+{
+    return n*n;
+}
+
+</script>
+</body>
+</html>

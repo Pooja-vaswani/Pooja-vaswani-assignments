@@ -1,0 +1,27 @@
+<html>
+<body>
+<script>
+i=0;
+var a=[1,2,3,4];  
+find(a,test);
+function find()
+{
+    if(test(a[i])== true)
+    {
+        document.write(a[i]);
+      
+    }
+    else{
+        i++;
+        find();
+    }
+}
+    function test(n){
+    if( n%2==0)
+        return true;
+    else 
+        return false;
+}
+</script>
+</body>
+</html>
